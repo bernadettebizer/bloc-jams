@@ -112,11 +112,16 @@ body.landing {
  .ion-iphone {
      color: rgb(233,50,117);
      font-size: 5rem;
+     
  }
 
  .container {
       margin: 0 auto;
       max-width: 64rem;
+  }
+
+  .container.narrow {
+    max-width: 56rem;
   }
 
  /* Medium and small screens (640px) */
